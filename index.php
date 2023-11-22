@@ -35,7 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $tanggal_lahir = test_input($_POST["tanggal_lahir"]);
     }
 
-    // Validasi Nomor Telepon
     if (empty($_POST["nomor_telepon"])) {
         $nomorTeleponErr = "Nomor Telepon harus diisi";
     } else {
